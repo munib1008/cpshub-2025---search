@@ -1,0 +1,366 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --body-small-font-family: "Inter", Helvetica;
+  --body-small-font-size: 14px;
+  --body-small-font-style: normal;
+  --body-small-font-weight: 400;
+  --body-small-letter-spacing: 0px;
+  --body-small-line-height: 22px;
+  --body-text: rgba(77, 77, 77, 1);
+  --body-text-font-family: "Poppins", Helvetica;
+  --body-text-font-size: 16px;
+  --body-text-font-style: normal;
+  --body-text-font-weight: 300;
+  --body-text-letter-spacing: 0px;
+  --body-text-line-height: 24px;
+  --button-text-font-family: "Poppins", Helvetica;
+  --button-text-font-size: 16px;
+  --button-text-font-style: normal;
+  --button-text-font-weight: 500;
+  --button-text-letter-spacing: 0px;
+  --button-text-line-height: 24px;
+  --button-underline-font-family: "Poppins", Helvetica;
+  --button-underline-font-size: 16px;
+  --button-underline-font-style: normal;
+  --button-underline-font-weight: 500;
+  --button-underline-letter-spacing: 0px;
+  --button-underline-line-height: 24px;
+  --close-font-family: "Poppins", Helvetica;
+  --close-font-size: 24px;
+  --close-font-style: normal;
+  --close-font-weight: 500;
+  --close-letter-spacing: 0px;
+  --close-line-height: 24px;
+  --colors-component-general-border-color: var(--colors-grayscale-gray-200);
+  --colors-component-general-component-color: var(--colors-grayscale-gray-700);
+  --colors-grayscale-gray-200: rgba(224, 229, 235, 1);
+  --colors-grayscale-gray-700: rgba(51, 61, 76, 1);
+  --company: rgba(242, 38, 19, 1);
+  --footor: rgba(77, 77, 77, 1);
+  --grey-30: rgba(217, 217, 217, 0.3);
+  --header-color: rgba(239, 239, 239, 1);
+  --heading-desktop-h6-font-family: "Inter", Helvetica;
+  --heading-desktop-h6-font-size: 16px;
+  --heading-desktop-h6-font-style: normal;
+  --heading-desktop-h6-font-weight: 600;
+  --heading-desktop-h6-letter-spacing: 0px;
+  --heading-desktop-h6-line-height: 24px;
+  --home-button-font-family: "Poppins", Helvetica;
+  --home-button-font-size: 14px;
+  --home-button-font-style: normal;
+  --home-button-font-weight: 400;
+  --home-button-letter-spacing: 0px;
+  --home-button-line-height: 24px;
+  --kit-section-fill: rgba(245, 245, 245, 1);
+  --light-big-font-family: "Poppins", Helvetica;
+  --light-big-font-size: 20px;
+  --light-big-font-style: normal;
+  --light-big-font-weight: 300;
+  --light-big-letter-spacing: 0px;
+  --light-big-line-height: 32px;
+  --light-medium: 0px 8px 32px -4px rgba(103, 111, 123, 0.1);
+  --line: rgba(217, 217, 217, 1);
+  --liquid-glass-labels-controls-primary: rgba(64, 64, 64, 1);
+  --main-headers-font-family: "Poppins", Helvetica;
+  --main-headers-font-size: 36px;
+  --main-headers-font-style: normal;
+  --main-headers-font-weight: 600;
+  --main-headers-letter-spacing: 0px;
+  --main-headers-line-height: 50px;
+  --navigation-nav-link-regular-font-family: "Inter", Helvetica;
+  --navigation-nav-link-regular-font-size: 16px;
+  --navigation-nav-link-regular-font-style: normal;
+  --navigation-nav-link-regular-font-weight: 500;
+  --navigation-nav-link-regular-letter-spacing: 0px;
+  --navigation-nav-link-regular-line-height: 24px;
+  --navigation-nav-link-small-font-family: "Inter", Helvetica;
+  --navigation-nav-link-small-font-size: 14px;
+  --navigation-nav-link-small-font-style: normal;
+  --navigation-nav-link-small-font-weight: 500;
+  --navigation-nav-link-small-letter-spacing: 0px;
+  --navigation-nav-link-small-line-height: 20px;
+  --people: rgba(0, 132, 171, 1);
+  --primary-cta: rgba(19, 158, 213, 1);
+  --product: rgba(240, 148, 54, 1);
+  --project: rgba(80, 80, 80, 1);
+  --shape-corner-extra-large: 28px;
+  --shape-corner-none: 0px;
+  --short-font-family: "Poppins", Helvetica;
+  --short-font-size: 12px;
+  --short-font-style: normal;
+  --short-font-weight: 600;
+  --short-letter-spacing: 0px;
+  --short-line-height: 24px;
+  --sizes-border-radius-border-radius: 8px;
+  --sizes-spacing-spacer-2: 8px;
+  --small-font-family: "Poppins", Helvetica;
+  --small-font-size: 10px;
+  --small-font-style: normal;
+  --small-font-weight: 300;
+  --small-letter-spacing: 0px;
+  --small-line-height: 12px;
+  --SUB-bold-font-family: "Poppins", Helvetica;
+  --SUB-bold-font-size: 20px;
+  --SUB-bold-font-style: normal;
+  --SUB-bold-font-weight: 600;
+  --SUB-bold-letter-spacing: 0px;
+  --SUB-bold-line-height: 30px;
+  --sub-headers-font-family: "Poppins", Helvetica;
+  --sub-headers-font-size: 24px;
+  --sub-headers-font-style: normal;
+  --sub-headers-font-weight: 600;
+  --sub-headers-letter-spacing: 0px;
+  --sub-headers-line-height: 36px;
+  --SUB-light-font-family: "Poppins", Helvetica;
+  --SUB-light-font-size: 20px;
+  --SUB-light-font-style: normal;
+  --SUB-light-font-weight: 300;
+  --SUB-light-letter-spacing: 0px;
+  --SUB-light-line-height: 30px;
+  --tagline-notes-font-family: "Poppins", Helvetica;
+  --tagline-notes-font-size: 14px;
+  --tagline-notes-font-style: normal;
+  --tagline-notes-font-weight: 300;
+  --tagline-notes-letter-spacing: 0px;
+  --tagline-notes-line-height: 24px;
+  --variable-collection-blck: rgba(0, 0, 0, 0.2);
+  --variable-collection-color: var(--variable-collection-CPS-light-grey);
+  --variable-collection-CPS-dark-grey: rgba(77, 77, 77, 0.15);
+  --variable-collection-CPS-light-grey: rgba(217, 217, 217, 0.2);
+  --variable-collection-CPS-white: rgba(0, 0, 0, 0.2);
+  --variable-collection-number: var(--sizes-border-radius-border-radius);
+  --variable-collection-white-60: rgba(255, 255, 255, 0.6);
+  --variable-collection-white-80: var(--variable-collection-white-60);
+  --white-bg: rgba(255, 255, 255, 1);
+  --white-bg-40: rgba(255, 255, 255, 0.3);
+  --white-bg-60: rgba(255, 255, 255, 0.6);
+  --white-bg-80: rgba(255, 255, 255, 0.8);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-colors-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-colors-mode="light"] {
+  --colors-component-general-border-color: var(--colors-grayscale-gray-200);
+  --colors-component-general-component-color: var(--colors-grayscale-gray-700);
+}
+
+[data-colors-mode="dark"] {
+  --colors-component-general-border-color: var(--colors-grayscale-gray-700);
+  --colors-component-general-component-color: var(--colors-grayscale-gray-200);
+}
+
+[data-liquid-glass-mode="bright"] {
+  --liquid-glass-labels-controls-primary: rgba(64, 64, 64, 1);
+}
+
+[data-liquid-glass-mode="dim"] {
+  --liquid-glass-labels-controls-primary: rgba(191, 191, 191, 1);
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
